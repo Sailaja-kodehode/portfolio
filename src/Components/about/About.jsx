@@ -5,7 +5,7 @@ import Info from "./Info";
 function About() {
   return (
     <section className="about" id="about">
-      <h2 className="section_title">Om Meg</h2>
+      {/* <h2 className="section_title">Om Meg</h2> */}
       <div className="about_container">
         <div className="about_data">
           <p className="about_description">
@@ -18,6 +18,7 @@ function About() {
             for me, creativity is problem solving and I am passionate about new technology.
  I am interested in HTML, CSS and design. I have knowledge of JavaScript,React , Backend as wel.*/}
           </p>
+          <Info />
           <hr className="about_lineBreak" />
           <article className="about_--Hobbies">
             <h2 className="about_title">Fritid</h2>
@@ -26,7 +27,6 @@ function About() {
               synger. Jeg liker å lese bøker også å spille badminton.
             </p>
           </article>
-          <Info />
         </div>
       </div>
     </section>

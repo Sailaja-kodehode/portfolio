@@ -11,8 +11,7 @@ const Backend = () => {
           <AiOutlineConsoleSql /> SQL
         </li>
         <li className="skills_name">
-          <FaNodeJs />
-          Node JS express
+          <FaNodeJs /> Node JS express
         </li>
       </ul>
     </section>

@@ -7,7 +7,9 @@ function Home() {
   return (
     <div className="home_section" id="home">
       <img className="home_image" src={Image} alt="pic" />
-      <Data />
+      <div>
+        <Data />
+      </div>
     </div>
   );
 }

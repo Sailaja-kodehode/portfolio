@@ -1,11 +1,11 @@
 import "./contact.css";
-import { SiGmail } from "react-icons/si";
-import { BsGithub } from "react-icons/bs";
-import { BsLinkedin } from "react-icons/bs";
+// import { SiGmail } from "react-icons/si";
+// import { BsGithub } from "react-icons/bs";
+// import { BsLinkedin } from "react-icons/bs";
 function Contact() {
   return (
     <section className="contact" id="contact">
-      <div className="contact_container">
+      {/* <div className="contact_container">
         <section className="contact_section">
           <p>
             Hei, jeg ser etter en frontend-utviklings praksis eller jobber, hvis
@@ -31,7 +31,7 @@ function Contact() {
             </li>
           </ul>
         </section>
-      </div>
+      </div> */}
       <form action="" className="contact_form">
         <h2>Kontakt</h2>
         <label htmlFor="name" className="contact_form_label">

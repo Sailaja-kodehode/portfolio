@@ -27,7 +27,7 @@ const Header = () => {
               <MdOutlineBrightness7 />
               ferdigheter
             </a>
-            <a href="#project" className="nav_link">
+            <a href="#projects" className="nav_link">
               <BsBriefcaseFill />
               prosjekt
             </a>

@@ -11,23 +11,19 @@ const Frontend = () => {
       <ul className="skills_group">
         <h3 className="skills_title">Frontend </h3>
         <li className="skills_name">
-          <FaHtml5 /> HTML 5
+          <FaHtml5 /> HTML5
         </li>
         <li className="skills_name">
-          <FaCss3 />
-          CSS
+          <FaCss3 /> CSS
         </li>
         <li className="skills_name">
-          <SiJavascript />
-          Java Script
+          <SiJavascript /> Java Script
         </li>
         <li className="skills_name">
-          <FaFigma />
-          Figma
+          <FaFigma /> Figma
         </li>
         <li className="skills_name">
-          <FaReact />
-          React
+          <FaReact /> React
         </li>
       </ul>
     </section>
