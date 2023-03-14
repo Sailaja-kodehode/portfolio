@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 // import About from "../about/About";
 // import CV from"../../assets/CV";
+import CV from "../Assets/CV/Sailaja_CV_03.2023.docx";
 const Data = () => {
   return (
     <div className="home_data">
@@ -17,17 +18,20 @@ const Data = () => {
       <div className="button-link">
         <button className="button">
           <a href="#contact" className="link">
-            {" "}
-            Hei!!{" "}
+            Hei!!
           </a>
         </button>
-        <button className="button">
-          {/* Min CV */}
-          <a
-            download="..\Assets\CV\Sailaja CV Feb_2023.pdf"
-            href=""
-            className="link"
-          >
+        <button
+          className="button"
+          // onClick={
+          //   () =>
+          //     alert(
+          //       "if you need CV,Please send me message to sailaja.kodehode@gmail.com"
+          //     )
+          //   // download="..\Assets\CV\Sailaja CV Feb_2023.pdf"
+          // }
+        >
+          <a className="link" download={CV} href={CV} target="_blanc">
             Min CV{" "}
           </a>
         </button>

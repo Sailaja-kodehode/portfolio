@@ -18,13 +18,18 @@ function About() {
             for me, creativity is problem solving and I am passionate about new technology.
  I am interested in HTML, CSS and design. I have knowledge of JavaScript,React , Backend as wel.*/}
           </p>
-          <Info />
+          <div className="info_bg">
+            <Info />
+          </div>
+
           <hr className="about_lineBreak" />
           <article className="about_--Hobbies">
             <h2 className="about_title">Fritid</h2>
             <p className="about_description">
-              Fritid jeg elsker å være sammen med barna mine.Vi leker sammen og
-              synger. Jeg liker å lese bøker også å spille badminton.
+              Fritid jeg lærer norsk for å forbedre min kommunikasjon med
+              kolleger og naboer. Jeg liker å spille badminton, å lese bøker og
+              går på tur til liten nærest fjell som ta ca. 1 time. Jeg elsker å
+              være sammen med familie og barna mine. Vi leker sammen og synger.
             </p>
           </article>
         </div>

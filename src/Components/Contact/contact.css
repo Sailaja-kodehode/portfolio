@@ -15,7 +15,7 @@
   padding: 40px;
   border-radius: 30px;
   /* color: blue; */
-  color: gray;
+  color: darkblue;
   width: 350px;
 }
 .contact_form * {
@@ -23,11 +23,12 @@
   border: none;
   padding: 10px 0;
   margin: 5px 0;
+  color: darkblue;
 }
 .contact_button {
   width: auto;
   /* background-color: blue; */
-  background-color: gray;
+  background-color: darkblue;
   align-items: center;
   justify-content: center;
   color: white;
@@ -37,7 +38,7 @@
 }
 .contact_container {
   display: flex;
-  color: gray;
+  color: darkblue;
   /* color: blue; */
   flex-direction: row;
   justify-content: left;
@@ -49,7 +50,7 @@
 }
 .contact_list {
   list-style-type: none;
-  color: gray;
+  color: darkblue;
   /* color: blue; */
   gap: 30px;
 }

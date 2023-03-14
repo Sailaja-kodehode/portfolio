@@ -32,6 +32,7 @@ function Footer() {
             sailaja.kodehode@gmail.com
           </a>
         </li>
+        <hr />
         <li className="footer_list_item">
           <a
             className="footer_list_item_link"
