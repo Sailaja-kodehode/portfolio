@@ -10,7 +10,11 @@ function Footer() {
     <div className="footer">
       <ul className="footer_list">
         <li className="footer_list_item">
-          <a className="footer_list_item_link" href="#" target="_blanc">
+          <a
+            className="footer_list_item_link"
+            href="https://github.com/Sailaja-kodehode/"
+            target="_blanc"
+          >
             <BsGithub /> github
           </a>
         </li>

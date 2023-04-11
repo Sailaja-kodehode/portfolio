@@ -1,66 +1,50 @@
 .home_section {
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
-  /* height: 100vh; */
+  margin: 6.25rem;
   align-items: center;
   justify-content: center;
-  /* min-height: 100vh; */
+  /* padding: 100px;*/
 }
 .home_content.grid {
   grid-template-rows: 116px repeat(2, 1fr);
   padding-top: 5.5rem;
   row-gap: 2rem;
   align-items: center;
-  /* padding: 50px 50px 400px 80px;
-  margin: 10px 10px 10px 80px; */
 }
 
 .home_subtitle {
-  position: relative;
   font-size: 25px;
-  padding-left: 5.5rem;
+  margin-left: 20px;
   font-weight: bolder;
   font-style: italic;
-  color: blue;
-  /* color: #cd5888; */
+  color: #cd5888;
   justify-content: center;
   align-items: center;
 }
-
 .home_description {
-  max-width: 500px;
-  margin-bottom: auto;
   font-style: italic;
-  color: gray;
+  color: #3a4856;
   justify-content: center;
   text-align: center;
-  margin-bottom: 0px;
 }
 .home_title {
-  font-size: big-font-Size;
-  text-align: center;
-  justify-items: center;
-  margin-bottom: auto;
+  align-items: center;
+  margin-left: 8rem;
   font-style: italic;
-  color: darkblue;
+  /* color: darkblue; */
 }
 
 .home_image {
-  /* background: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow: 0 0 0 9px rgb(255, 255, 255/30%) inset;
-  border: 1; 
-  justify-self: center;*/
   width: 250px;
   height: 250px;
   border-radius: 35px;
+  margin-top: 20px;
 }
 
 .button {
   display: inline-flex;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 30px;
   padding-top: 5px;
   width: 100px;
@@ -76,10 +60,49 @@
   justify-items: center;
   row-gap: 10px;
   cursor: pointer;
-  color: darkblue;
+  /* color: darkblue; */
 }
 
 .link {
   color: darkblue;
   text-decoration: none;
+}
+
+@media screen and (max-width: 780px) {
+  .Home_container_image {
+    width: 100px;
+    height: 100px;
+  }
+  .home_section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Home_container_image {
+    width: 100px;
+    height: 100px;
+  }
+  .home_section {
+    display: flex;
+    flex-direction: column;
+    margin: 4.25rem;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 80vh; */
+  }
+  /* .home_container {
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  } */
+  .home_subtitle {
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #cd5888;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
 }

@@ -21,9 +21,13 @@
 }
 .nav_logo {
   color: darkblue;
-  font-weight: font medium;
-  font-style: italic;
+  font-weight: bolder;
+  font-style: bolder;
   margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: aqua;
 }
 .nav_list {
   display: flex;
@@ -34,8 +38,8 @@
   flex-direction: column;
   padding: 10px 20px 10px 20px;
   align-items: center;
-  font-size: medium;
-  font-weight: medium;
+  font-size: bold;
+  font-weight: bold;
   transition: 0.3s;
   color: darkblue;
   text-decoration: none;
@@ -43,10 +47,14 @@
 /*Active link*/
 .active-link,
 .nav_link:hover {
-  color: gray;
+  color: #cd5888;
 }
+.nav_logo:hover {
+  color: #cd5888;
+}
+
 @media screen and (max-width: 400px) {
-  .nav-toggle {
+  .toggleButton {
     padding: 0.5em;
     background: transparent;
     border: 0;
@@ -55,7 +63,7 @@
     right: 1em;
   }
 
-  .hamburger {
+  .nav_ul_li--menuBackground {
     background: darkcyan;
     width: 2em;
     height: 3px;
@@ -64,26 +72,26 @@
     position: relative;
   }
 
-  .hamburger::before,
-  .hamburger::after {
+  .nav_ul_li--menuBackground::before,
+  .nav_ul_li--menuBackground::after {
     content: "";
     position: "absolute";
     left: 0%;
     right: 0%;
   }
-  .hamburger,
-  .hamburger::before,
-  .hamburger::after {
+  .nav_ul_li--menuBackground,
+  .nav_ul_li--menuBackground::before,
+  .nav_ul_li--menuBackground::after {
     background: darkcyan;
     width: 2em;
     height: 3px;
     border-radius: 1em;
     transition: transform 250ms ease-in-out;
   }
-  .hamburger::after {
+  .nav_ul_li--menuBackground::after {
     top: 6px;
   }
-  .hamburger::before {
+  .nav_ul_li--menuBackground::before {
     bottom: 6px;
   }
 }

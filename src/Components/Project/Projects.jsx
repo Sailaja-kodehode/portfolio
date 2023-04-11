@@ -139,7 +139,6 @@ function Projects() {
                 className="projects_link"
               >
                 <FaFigma />
-
                 <p className="projects_direction">{projectName} figmaDesign</p>
               </a>
             </li>

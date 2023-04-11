@@ -1,0 +1,12 @@
+.dark {
+  background-color: darkblue;
+  color: #e0ffff;
+  border-radius: 50px;
+}
+.light {
+  background-color: #e0ffff;
+  color: darkblue;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+}

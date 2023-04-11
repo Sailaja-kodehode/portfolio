@@ -1,11 +1,10 @@
 .contact {
-  /* height: 100vh;
-  min-height: 100vh; */
-  margin-top: 50px;
-  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 100px;
+  padding: 50px;
+  /* margin-bottom: 30px; */
 }
 .contact_form {
   display: flex;
@@ -18,6 +17,10 @@
   color: darkblue;
   width: 350px;
 }
+h2 {
+  align-items: center;
+}
+
 .contact_form * {
   border-radius: 10px;
   border: none;
@@ -26,20 +29,23 @@
   color: darkblue;
 }
 .contact_button {
-  width: auto;
-  /* background-color: blue; */
+  width: 100%;
   background-color: darkblue;
   align-items: center;
   justify-content: center;
   color: white;
+  cursor: pointer;
 }
 .contact_form_text {
   resize: vertical;
+  width: 350px;
+  height: 50px;
+  padding: 6px 6px;
 }
+
 .contact_container {
   display: flex;
   color: darkblue;
-  /* color: blue; */
   flex-direction: row;
   justify-content: left;
   align-items: left;
@@ -69,4 +75,10 @@
   /* color: blue; */
   font-style: italic;
   row-gap: 25 px;
+}
+
+@media screen and (max-width: 800px) {
+  .contact__mail {
+    display: none;
+  }
 }

@@ -7,8 +7,8 @@ import { SiJavascript } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
 const Frontend = () => {
   return (
-    <section className="skills_container">
-      <ul className="skills_group_Frontend">
+    <section className="skills_group">
+      <ul className="skills_group_frontend">
         <h3 className="skills_title">Frontend </h3>
         <li className="skills_name">
           <FaHtml5 /> HTML5

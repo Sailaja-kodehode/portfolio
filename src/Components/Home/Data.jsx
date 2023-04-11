@@ -7,14 +7,14 @@ const Data = () => {
   return (
     <div className="home_data">
       <h1 className="home_title">Sailaja</h1>
-      <h3 className="home_subtitle">A Creative Fronted Developer</h3>
-      <p className="home_description">
+      <h3 className="home_subtitle">A Junior Fronted Developer</h3>
+      {/* <p className="home_description">
         Jeg er en kreativ Frontend Developer, og jeg er veldig lidenskapelig og
-        dedikert i arbeidet.
-        {/* <About /> */}
-        {/* I'm creative fronted Developer,and i'm very passionate and dedicated to
-        work. */}
-      </p>
+        dedikert i arbeidet. */}
+      {/* <About /> */}
+      {/* I'm creative fronted Developer,and i'm very passionate and dedicated to
+        work. 
+      </p>  */}
       <div className="button-link">
         <button className="button">
           <a href="#contact" className="link">

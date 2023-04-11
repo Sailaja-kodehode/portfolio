@@ -1,5 +1,6 @@
 import React from "react";
-import Header from "./Components/Header/Header";
+// import Header from "./Components/Header/Header";
+import NavBar from "./Components/Header/NavBar";
 import Home from "./Components/Home/Home";
 import About from "./Components/about/About";
 import Skills from "./Components/Skills/Skills";
@@ -12,7 +13,8 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <Header />
+      <NavBar />
+      {/* <Header /> */}
       {/* <Landing /> */}
       <Home />
       <About />
